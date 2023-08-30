@@ -1,0 +1,76 @@
+@media (max-width: 767px) and (min-width: 0px) {
+  #certificate img {
+    width: 100%;
+    padding: 0;
+    /* padding-top: 20px; */
+    border: none;
+  }
+
+  .boder-top .container {
+    padding: 0;
+  }
+
+  .certificate_item div {
+    margin-bottom: 0px;
+  }
+
+  .orange_boder_left {
+    border-left: none;
+  }
+
+  #certificate .orange_boder_left {
+    padding: 0;
+  }
+
+  #projects .section-title {
+    margin-left: 9px;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  .project_item .card {
+    width: 767px;
+    height: 900px;
+  }
+
+  #Github,
+  #Linkedin,
+  #Facebook {
+    display: none;
+  }
+
+  #personal-info {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #img-3 {
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 100%;
+  }
+
+  .orange_boder_left img {
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 100%;
+  }
+
+  .project_item .card {
+    /* width: 450px; */
+    height: fit-content;
+  }
+
+  .orange_boder_left img {
+    margin-left: 0;
+  }
+  .orange_boder_left {
+    border-left: none;
+    /* padding-left: 30px; */
+  }
+
+  .boder-top {
+    border-top: none;
+  }
+}

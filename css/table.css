@@ -1,0 +1,70 @@
+@media (max-width: 1199px) and (min-width: 1000px) {
+  #certificate_img_3 {
+    width: 863px;
+  }
+  #certificate > .container {
+    width: 865px;
+    /* background-color: #199cdb; */
+  }
+
+  .orange_boder_left {
+    border-left: none;
+    /* padding-left: 30px; */
+  }
+
+  .boder-top {
+    border-top: none;
+  }
+  .boder-top .container {
+    padding: 0;
+  }
+  .certificate_item ul {
+    padding: 0;
+  }
+
+  #certificate ul {
+    margin: 0;
+    padding: 0;
+  }
+  #projects .section-title {
+    margin-left: 85px;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  .project_item .card {
+    width: 767px;
+    height: 900px;
+  }
+
+  #img-3 {
+    width: 383px;
+  }
+}
+
+@media (max-width: 999px) and (min-width: 768px) {
+  .orange_boder_left {
+    border-left: none;
+    /* padding-left: 30px; */
+  }
+
+  .boder-top {
+    border-top: none;
+  }
+  .boder-top .container {
+    padding: 0;
+  }
+
+  .project_item .card {
+    width: 696px;
+    height: 900px;
+  }
+
+  #projects .section-title {
+    margin-left: 10px;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  #img-3 {
+    width: 347px;
+  }
+}
