@@ -42,6 +42,9 @@
 }
 
 @media (max-width: 999px) and (min-width: 768px) {
+  #certificate_img_3 {
+    width: 947px;
+  }
   .orange_boder_left {
     border-left: none;
     /* padding-left: 30px; */
