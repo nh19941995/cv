@@ -288,6 +288,15 @@ h6 {
   width: 323px;
 }
 
+.BTN_show {
+  border-radius: 20px !important;
+  font-size: 13px !important    ;
+  background-color: #f5f6bb !important;
+  border: none !important ;
+  color: black !important;
+  margin-bottom: 30px;
+}
+
 @media (min-width: 1400px) {
   #certificate > .container {
     /* padding-top: 30px; */
