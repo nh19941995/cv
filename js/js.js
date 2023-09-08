@@ -149,9 +149,18 @@ listCard.forEach(function (element) {
       // Kiểm tra xem sự kiện "click" đã được gán cho nút chưa
       if (!buttonElement.clickEventAdded) {
         buttonElement.addEventListener("click", function () {
-          console.log("x");
           var element_ul = element.querySelector("ul");
           changeDisplay(element_ul);
+
+          console.log(buttonElement.textContent);
+
+          if (buttonElement.textContent.includes("VIEW MORE")) {
+            buttonElement.innerHTML = `
+              <i class="fa-solid fa-caret-down mx-1 py-0"></i>VIEW LESS`;
+          } else if (buttonElement.textContent.includes("VIEW LESS")) {
+            buttonElement.innerHTML = `
+              <i class="fa-solid fa-caret-down mx-1 py-0"></i>VIEW MORE`;
+          }
         });
 
         // Đánh dấu rằng sự kiện "click" đã được gán
@@ -166,7 +175,6 @@ listCard.forEach(function (element) {
     // Tìm phần tử <button> trong phạm vi của element
     var buttonElement = element.querySelector("button");
     if (buttonElement) {
-      console.log("có nha");
       changeDisplay(buttonElement);
     }
   });
